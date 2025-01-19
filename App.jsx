@@ -4,6 +4,7 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 import First from './src/components/First';
+import InputText from './src/components/InputText';
 const App = () => {
   return (
     <View>
@@ -11,6 +12,7 @@ const App = () => {
       <Text style={{ fontSize: 20 }}>Khadiza is  Smart</Text>
       <Button title="Press Here" />
       <First />
+      <InputText />
     </View>
   );
 };

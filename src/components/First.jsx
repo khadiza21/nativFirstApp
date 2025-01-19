@@ -15,7 +15,7 @@ const First = () => {
     return (
 
         <View>
-            <Text style={{ fontSize: 20 }}>First component are making. </Text>
+            <Text style={{ fontSize: 20 }}>First component arrre making. </Text>
 
             <Button title='Press 1' onPress={() => getName('Khadiza')}  />
 
