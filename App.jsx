@@ -7,9 +7,11 @@ import First from './src/components/First';
 import InputText from './src/components/InputText';
 import FlatListScreen from './src/components/FlatListScreen';
 import SectionListScreen from './src/components/SectionListScreen';
+import LoginForm from './src/components/LoginForm';
 const App = () => {
   return (
     <View>
+      <LoginForm /> 
       <SectionListScreen />
        <FlatListScreen />
       <Text style={{ fontSize: 30 }}>Khadiza is Nice </Text>
