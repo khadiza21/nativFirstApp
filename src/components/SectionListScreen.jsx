@@ -38,7 +38,7 @@ const SectionListScreen = () => {
      <SectionList sections={itemList}
      renderItem={renderItem} 
      renderSectionHeader={renderSectionHeader}
-     keyExtractor={(key)=> key.key}
+     keyExtractor={(item)=> item.id}
      />
     </View>
   )
