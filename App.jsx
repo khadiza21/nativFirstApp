@@ -2,7 +2,7 @@
 
 // rnfe 
 import React from 'react';
-import { View} from 'react-native';
+import { Text, View} from 'react-native';
 // import First from './src/components/First';
 // import InputText from './src/components/InputText';
 // import FlatListScreen from './src/components/FlatListScreen';
@@ -12,7 +12,7 @@ import { View} from 'react-native';
 import Grid from './src/components/Grid';;
 const App = () => {
   return (
-    <View>
+    <View  style={{flex:1}}>
       <Grid />
        {/* 
       <ContactListScreen />
