@@ -10,15 +10,16 @@ import { Text, View } from 'react-native';
 // import LoginForm from './src/components/LoginForm';
 // import ContactListScreen from './src/screens/ContactListScreen';
 //import Grid from './src/components/Grid';
-import ClassComponents from './src/components/ClassComponents';
+// import ClassComponents from './src/components/ClassComponents';
+import UseEffect from './src/components/UseEffect';
 ;
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
+      <UseEffect />
 
-
-<ClassComponents />
-      {/* <Grid />
+      {/* <ClassComponents />
+      <Grid />
       <ContactListScreen />
      <LoginForm />
       <SectionListScreen />
