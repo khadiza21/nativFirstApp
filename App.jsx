@@ -8,18 +8,19 @@ import InputText from './src/components/InputText';
 import FlatListScreen from './src/components/FlatListScreen';
 import SectionListScreen from './src/components/SectionListScreen';
 import LoginForm from './src/components/LoginForm';
+import ContactListScreen from './src/screens/ContactListScreen';
 const App = () => {
   return (
     <View>
-      <LoginForm /> 
+      <ContactListScreen />
+      {/* <LoginForm />
       <SectionListScreen />
        <FlatListScreen />
       <Text style={{ fontSize: 30 }}>Khadiza is Nice </Text>
       <Text style={{ fontSize: 20 }}>Khadiza is  Smart</Text>
       <Button title="Press Here" />
       <First />
-      <InputText />
-     
+      <InputText /> */}
     </View>
   );
 };
