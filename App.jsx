@@ -2,19 +2,23 @@
 
 // rnfe 
 import React from 'react';
-import { Text, View} from 'react-native';
+import { Text, View } from 'react-native';
 // import First from './src/components/First';
 // import InputText from './src/components/InputText';
 // import FlatListScreen from './src/components/FlatListScreen';
 // import SectionListScreen from './src/components/SectionListScreen';
 // import LoginForm from './src/components/LoginForm';
 // import ContactListScreen from './src/screens/ContactListScreen';
-import Grid from './src/components/Grid';;
+//import Grid from './src/components/Grid';
+import ClassComponents from './src/components/ClassComponents';
+;
 const App = () => {
   return (
-    <View  style={{flex:1}}>
-      <Grid />
-       {/* 
+    <View style={{ flex: 1 }}>
+
+
+<ClassComponents />
+      {/* <Grid />
       <ContactListScreen />
      <LoginForm />
       <SectionListScreen />
