@@ -14,12 +14,14 @@ import { Text, View } from 'react-native';
 import UseEffect from './src/components/UseEffect';
 import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase';
 import UseEffectHookUnmountingPhase from './src/components/UseEffectHookUnmountingPhase';
+import HideShowToggle from './src/components/HideShowToggle';
 ;
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-    <UseEffectHookUnmountingPhase />
-     {/* <UseEffect />
+      <HideShowToggle />
+    {/* <UseEffectHookUnmountingPhase />
+     <UseEffect />
   <UseEffectHookUpdatingPhase />
        <ClassComponents />
       <Grid />
