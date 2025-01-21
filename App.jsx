@@ -15,12 +15,15 @@ import UseEffect from './src/components/UseEffect';
 import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase';
 import UseEffectHookUnmountingPhase from './src/components/UseEffectHookUnmountingPhase';
 import HideShowToggle from './src/components/HideShowToggle';
+import StyleWithButton from './src/components/StyleWithButton';
 ;
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-      <HideShowToggle />
-    {/* <UseEffectHookUnmountingPhase />
+<StyleWithButton />
+
+      {/*    <HideShowToggle />
+  <UseEffectHookUnmountingPhase />
      <UseEffect />
   <UseEffectHookUpdatingPhase />
        <ClassComponents />
