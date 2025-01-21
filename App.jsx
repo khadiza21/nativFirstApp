@@ -13,13 +13,14 @@ import { Text, View } from 'react-native';
 // import ClassComponents from './src/components/ClassComponents';
 import UseEffect from './src/components/UseEffect';
 import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase';
+import UseEffectHookUnmountingPhase from './src/components/UseEffectHookUnmountingPhase';
 ;
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-      <UseEffectHookUpdatingPhase />
+    <UseEffectHookUnmountingPhase />
      {/* <UseEffect />
-
+  <UseEffectHookUpdatingPhase />
        <ClassComponents />
       <Grid />
       <ContactListScreen />
