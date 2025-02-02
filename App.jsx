@@ -17,12 +17,15 @@ import UseEffectHookUnmountingPhase from './src/components/UseEffectHookUnmounti
 import HideShowToggle from './src/components/HideShowToggle';
 import StyleWithButton from './src/components/StyleWithButton';
 import Loader from './src/components/Loader';
+import PressableComponent from './src/components/PressableComponent';
+import StatusBarExample from './src/components/StatusBarExample';
 ;
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-      
-  {/*<Loader/>
+      <StatusBarExample />
+      {/*  <PressableComponent />
+  <Loader/>
  <StyleWithButton />
        <HideShowToggle />
   <UseEffectHookUnmountingPhase />

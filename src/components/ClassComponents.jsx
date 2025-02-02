@@ -1,3 +1,4 @@
+/* eslint-disable eol-last */
 /* eslint-disable react-native/no-inline-styles */
 import { View, Text } from 'react-native';
 import React, { Component } from 'react';
