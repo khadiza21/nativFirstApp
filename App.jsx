@@ -19,12 +19,14 @@ import StyleWithButton from './src/components/StyleWithButton';
 import Loader from './src/components/Loader';
 import PressableComponent from './src/components/PressableComponent';
 import StatusBarExample from './src/components/StatusBarExample';
+import UseRefHook from './src/components/UseRefHook';
 ;
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-      <StatusBarExample />
-      {/*  <PressableComponent />
+      <UseRefHook />
+     {/*  <StatusBarExample />
+       <PressableComponent />
   <Loader/>
  <StyleWithButton />
        <HideShowToggle />
