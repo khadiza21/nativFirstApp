@@ -20,12 +20,14 @@ import Loader from './src/components/Loader';
 import PressableComponent from './src/components/PressableComponent';
 import StatusBarExample from './src/components/StatusBarExample';
 import UseRefHook from './src/components/UseRefHook';
+import ModalDialogBox from './src/components/ModalDialogBox';
 ;
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-      <UseRefHook />
-     {/*  <StatusBarExample />
+      <ModalDialogBox />
+     {/*  <UseRefHook />
+      <StatusBarExample />
        <PressableComponent />
   <Loader/>
  <StyleWithButton />
