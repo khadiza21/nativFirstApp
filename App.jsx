@@ -22,11 +22,13 @@ import StatusBarExample from './src/components/StatusBarExample';
 import UseRefHook from './src/components/UseRefHook';
 import ModalDialogBox from './src/components/ModalDialogBox';
 import AlertExample from './src/components/AlertExample';
+import GetApi from './src/components/GetApi';
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-      <AlertExample />
-      {/*   <ModalDialogBox />
+      <GetApi />
+    {/*  <AlertExample />
+         <ModalDialogBox />
        <UseRefHook />
       <StatusBarExample />
        <PressableComponent />
