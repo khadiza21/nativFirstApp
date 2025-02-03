@@ -1,6 +1,6 @@
 /* eslint-disable react-native/no-inline-styles */
 
-// rnfe 
+// rnfe
 import React from 'react';
 import { Text, View } from 'react-native';
 // import First from './src/components/First';
@@ -21,12 +21,13 @@ import PressableComponent from './src/components/PressableComponent';
 import StatusBarExample from './src/components/StatusBarExample';
 import UseRefHook from './src/components/UseRefHook';
 import ModalDialogBox from './src/components/ModalDialogBox';
-;
+import AlertExample from './src/components/AlertExample';
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-      <ModalDialogBox />
-     {/*  <UseRefHook />
+      <AlertExample />
+      {/*   <ModalDialogBox />
+       <UseRefHook />
       <StatusBarExample />
        <PressableComponent />
   <Loader/>
