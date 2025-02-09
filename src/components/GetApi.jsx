@@ -7,7 +7,7 @@ const GetApi = () => {
 
     const [users, setUsers] = useState([])
     useEffect(() => {
-        // fetch('http://localhost:3000/users')
+        // fetch('http://10.0.2.2:3000/users')
         //     .then(res => { res.json() })
         //     .then(data => setUsers())
         axios.get('http://10.0.2.2:3000/users').then(res => {

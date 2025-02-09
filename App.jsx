@@ -23,11 +23,13 @@ import UseRefHook from './src/components/UseRefHook';
 import ModalDialogBox from './src/components/ModalDialogBox';
 import AlertExample from './src/components/AlertExample';
 import GetApi from './src/components/GetApi';
+import POST_API from './src/components/POST_API';
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-      <GetApi />
-    {/*  <AlertExample />
+      <POST_API />
+      {/*  <GetApi />
+      <AlertExample />
          <ModalDialogBox />
        <UseRefHook />
       <StatusBarExample />
