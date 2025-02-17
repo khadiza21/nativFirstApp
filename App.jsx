@@ -28,8 +28,9 @@ import PutApi from './src/components/PutApi';
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-      <PutApi />
-       {/*   <POST_API />
+
+      {/*  <PutApi />
+      <POST_API />
     <GetApi />
       <AlertExample />
          <ModalDialogBox />
