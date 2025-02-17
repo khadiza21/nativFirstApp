@@ -24,11 +24,13 @@ import ModalDialogBox from './src/components/ModalDialogBox';
 import AlertExample from './src/components/AlertExample';
 import GetApi from './src/components/GetApi';
 import POST_API from './src/components/POST_API';
+import PutApi from './src/components/PutApi';
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-      <POST_API />
-      {/*  <GetApi />
+      <PutApi />
+       {/*   <POST_API />
+    <GetApi />
       <AlertExample />
          <ModalDialogBox />
        <UseRefHook />
