@@ -26,12 +26,15 @@ import GetApi from './src/components/GetApi';
 import POST_API from './src/components/POST_API';
 import PutApi from './src/components/PutApi';
 import Api_Patch from './src/components/Api_Patch';
+import DeleteApi from './src/components/DeleteApi';
+import GetApiList from './src/components/GetApiList';
 
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-      
-     {/* <Api_Patch />
+      <GetApiList />
+     {/*  <DeleteApi />
+     <Api_Patch />
       <PutApi />
       <POST_API />
     <GetApi />
