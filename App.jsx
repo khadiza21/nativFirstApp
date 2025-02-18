@@ -33,7 +33,7 @@ const App = () => {
   return (
     <View style={{ flex: 1 }}>
       <GetApiList />
-     {/*  <DeleteApi />
+      {/*  <DeleteApi />
      <Api_Patch />
       <PutApi />
       <POST_API />
