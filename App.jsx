@@ -25,11 +25,14 @@ import AlertExample from './src/components/AlertExample';
 import GetApi from './src/components/GetApi';
 import POST_API from './src/components/POST_API';
 import PutApi from './src/components/PutApi';
+import Api_Patch from './src/components/Api_Patch';
+
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-
-      {/*  <PutApi />
+      
+     {/* <Api_Patch />
+      <PutApi />
       <POST_API />
     <GetApi />
       <AlertExample />
