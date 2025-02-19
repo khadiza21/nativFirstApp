@@ -30,12 +30,14 @@ import DeleteApi from './src/components/DeleteApi';
 import GetApiList from './src/components/GetApiList';
 import PlatformExample from './src/components/PlatformExample';
 import Search from './src/components/Search';
+import Main from './src/Layout/Main';
 
 const App = () => {
   return (
     <View style={{flex: 1}}>
-      <Search />
-     {/* <PlatformExample />
+      <Main />
+    {/*  <Search />
+      <PlatformExample />
          <GetApiList />
        <DeleteApi />
      <Api_Patch />
