@@ -29,12 +29,14 @@ import Api_Patch from './src/components/Api_Patch';
 import DeleteApi from './src/components/DeleteApi';
 import GetApiList from './src/components/GetApiList';
 import PlatformExample from './src/components/PlatformExample';
+import Search from './src/components/Search';
 
 const App = () => {
   return (
     <View style={{flex: 1}}>
-      <PlatformExample />
-      {/*   <GetApiList />
+      <Search />
+     {/* <PlatformExample />
+         <GetApiList />
        <DeleteApi />
      <Api_Patch />
       <PutApi />
