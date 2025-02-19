@@ -2,7 +2,7 @@
 
 // rnfe
 import React from 'react';
-import { Text, View } from 'react-native';
+import {Text, View} from 'react-native';
 // import First from './src/components/First';
 // import InputText from './src/components/InputText';
 // import FlatListScreen from './src/components/FlatListScreen';
@@ -28,12 +28,14 @@ import PutApi from './src/components/PutApi';
 import Api_Patch from './src/components/Api_Patch';
 import DeleteApi from './src/components/DeleteApi';
 import GetApiList from './src/components/GetApiList';
+import PlatformExample from './src/components/PlatformExample';
 
 const App = () => {
   return (
-    <View style={{ flex: 1 }}>
-      <GetApiList />
-      {/*  <DeleteApi />
+    <View style={{flex: 1}}>
+      <PlatformExample />
+      {/*   <GetApiList />
+       <DeleteApi />
      <Api_Patch />
       <PutApi />
       <POST_API />
