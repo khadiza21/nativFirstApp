@@ -34,9 +34,9 @@ import Main from './src/Layout/Main';
 
 const App = () => {
   return (
-    <View style={{flex: 1}}>
-      <Main />
-    {/*  <Search />
+    <View style={{flex: 1}}> 
+       <Main />
+    {/* <Search />
       <PlatformExample />
          <GetApiList />
        <DeleteApi />

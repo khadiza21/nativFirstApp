@@ -4,10 +4,18 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Home from '../navigation-screen/Home';
 import About from '../navigation-screen/About';
 import Login from '../navigation-screen/Login';
-import {StyleSheet} from 'react-native';
+import {Alert, Button, StyleSheet} from 'react-native';
+import MyHeader from '../navigation-screen/MyHeader';
+const Stack = createNativeStackNavigator();
 
+const sayHello = () => {
+  Alert.alert('Hello', 'Hello User');
+};
+const HeaderTitle = () => (
+  <Button title="Two" color="green" onPress={sayHello} />
+); // can call here built-in component
+const HeaderLeft = () => <Button title="One" color="red" onPress={sayHello} />;
 const Main = () => {
-  const Stack = createNativeStackNavigator();
   return (
     <NavigationContainer>
       <Stack.Navigator
@@ -17,6 +25,17 @@ const Main = () => {
           headerTintColor: '#fff',
           contentStyle: styles.screen,
         }}>
+        <Stack.Screen
+          name="Header"
+          component={MyHeader}
+          options={{
+            title: '',
+            // headerLeft: () => <Button title="One" color="red" />,
+            // headerRight: () => <Button title='Two' color='green' />
+            headerTitle: HeaderTitle,
+            headerLeft: HeaderLeft,
+          }}
+        />
         <Stack.Screen
           name="Login"
           component={Login}
@@ -38,7 +57,11 @@ const Main = () => {
           component={Home}
           options={{headerShown: false}}
         />
-        <Stack.Screen name="About" component={About} />
+        <Stack.Screen
+          name="About"
+          component={About}
+          // options={{headerShown: false}}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
